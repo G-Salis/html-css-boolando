@@ -9,3 +9,30 @@
   display: table;
   clear: both;
 }
+
+img{
+  width: 100%;
+}
+
+main{
+  width: 80%;
+  margin: 5% auto;
+}
+
+div{
+  position: relative;
+  display: inline-block;
+  width: 33%;
+  cursor: pointer;
+}
+
+.img_hover{
+position: absolute;
+top: 0px;
+left: 0px;
+
+}
+
+.img_hover:hover{
+  visibility: hidden;
+}
