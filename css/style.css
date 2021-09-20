@@ -19,20 +19,40 @@ main{
   margin: 5% auto;
 }
 
-div{
+.img_container{
   position: relative;
   display: inline-block;
-  width: 33%;
+  width: 31%;
+  margin: 1%;
   cursor: pointer;
 }
 
+.img_default{
+  display: block;
+}
+
 .img_hover{
-position: absolute;
-top: 0px;
-left: 0px;
+  display: none;
 
 }
 
-.img_hover:hover{
-  visibility: hidden;
+.img_container:hover .img_default{
+  display: none;
+}
+
+.img_container:hover .img_hover{
+  display: block;
+}
+
+
+
+.heart::after{
+  content: "\2665";
+  font-size: 20px;
+  position: absolute;
+  top: 15px;
+  right: 0px;
+  z-index: 50;
+  background-color: white;
+  padding: 10px 13px;
 }
