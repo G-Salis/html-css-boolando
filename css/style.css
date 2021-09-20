@@ -27,7 +27,7 @@ main{
   position: relative;
   display: inline-block;
   width: 31%;
-  margin: 3% 1%;
+  margin: 4% 1%;
   cursor: pointer;
 }
 
@@ -92,7 +92,7 @@ main{
 .description{
   position: absolute;
   cursor: default;
-
+  margin-top: 10px;
 }
 
 .marca, .old_price, .new_price{
