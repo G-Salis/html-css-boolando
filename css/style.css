@@ -1,3 +1,4 @@
+/* Funzioni generali */
 *{
   margin: 0;
   padding: 0;
@@ -14,19 +15,23 @@ img{
   width: 100%;
 }
 
+/* Dimensioni del main */
 main{
   width: 80%;
   margin: 5% auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Dimensioni del box immagini */
 .img_container{
   position: relative;
   display: inline-block;
   width: 31%;
-  margin: 1%;
+  margin: 3% 1%;
   cursor: pointer;
 }
 
+/* Comportamento delle foto al passaggio del cursore */
 .img_default{
   display: block;
 }
@@ -45,7 +50,7 @@ main{
 }
 
 
-
+/* Simbolo del preferito */
 .heart::after{
   content: "\2665";
   font-size: 20px;
@@ -56,3 +61,54 @@ main{
   background-color: white;
   padding: 10px 13px;
 }
+
+/* Caratteristiche simbolo sconto e sostenibilità */
+.sales, .sustainability, .sustainability_only{
+  position: absolute;
+  bottom: 15px;
+  color: white;
+  padding: 2px 5px;
+  font-size: smaller;
+}
+
+.sales{
+  left: 0px;
+  background-color: red;
+}
+
+.sustainability{
+  left: 50px;
+  background-color: green;
+  
+}
+
+.sustainability_only{
+  left: 0px;
+  background-color: green;
+
+}
+
+/* Caratteristica della descrizione delle foto del catalogo */
+.description{
+  position: absolute;
+  cursor: default;
+
+}
+
+.marca, .old_price, .new_price{
+  font-size: 12px;
+}
+
+.model, .old_price, .new_price{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.new_price{
+  color: red;
+}
+
+.old_price{
+  text-decoration: line-through;
+}
+
