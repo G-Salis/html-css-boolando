@@ -1,180 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Boolando</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Boolando</title>
+  </head>
+  <body>
+    <!-- Catalogo -->
+    <main>
+      <!-- Foto, modelli e prezzi del catalogo -->
+      <div class="img_container">
+        <!-- Utilisare un div per raggruppare tutti gli elementi che sono all'interno del box immagine -->
+        <!-- Foto qunado non viene passato il cursore -->
+        <img class="img_default" src="img/1.webp" alt="" />
 
-<!-- Catalogo -->
-  <main>
+        <!-- Foto qunado viene passato il cursore -->
+        <img class="img_hover" src="img/1b.webp" alt="" />
 
-<!-- Foto, modelli e prezzi del catalogo -->
-    <div class="img_container">
-      
-<!-- Foto qunado non viene passato il cursore -->
-      <img class="img_default"src="img/1.webp" alt="">
+        <!-- Simbolo preferiti-->
+        <div class="heart"></div>
 
-<!-- Foto qunado viene passato il cursore -->
-      <img class="img_hover" src="img/1b.webp" alt="">
+        <!-- Utilizzare un div per raggruppare le due etichette che diventano degli span -->
+        <!-- Sconto -->
+        <div class="sales">-50%</div>
 
-<!-- Simbolo preferiti-->      
-      <div class="heart"></div>
+        <!-- Sostenibilità -->
+        <div class="sustainability">Sostenibile</div>
 
-<!-- Sconto -->
-      <div class="sales">-50%</div>
-
-<!-- Sostenibilità -->
-      <div class="sustainability">Sostenibile</div>
-
-<!-- Descrizione foto Catalogo -->
-      <div class="description">
-        
-        <div class="marca">Levi's</div>
-        <div class="model">Relaxed fit tee unisex</div>
-        <span class="new_price">14,99 &euro;</span>
-        <span class="old_price">29,99 &euro;</span>
-
-      </div>
-  
-    </div>
-    
-<!-- Foto, modelli e prezzi del catalogo -->
-    <div class="img_container">
-
-<!-- Foto qunado non viene passato il cursore -->      
-      <img class="img_default"src="img/2.webp" alt="">
-
-<!-- Foto qunado viene passato il cursore -->
-      <img class="img_hover" src="img/2b.webp" alt="">
-
-<!-- Simbolo preferiti-->       
-      <div class="heart"></div>
-
-<!-- Sconto -->
-      <div class="sales">-30%</div>
-
-<!-- Descrizione foto Catalogo -->
-      <div class="description">
-        
-        <div class="marca">Guess</div>
-        <div class="model">roses tee</div>
-        <span class="new_price">20,99 &euro;</span>
-        <span class="old_price">29,99 &euro;</span>
-
-      </div>
-        
-    </div>
-
-<!-- Foto, modelli e prezzi del catalogo -->
-    <div class="img_container">
-
-<!-- Foto qunado non viene passato il cursore -->      
-      <img class="img_default"src="img/3.webp" alt="">
-
-<!-- Foto qunado viene passato il cursore -->
-      <img class="img_hover" src="img/3b.webp" alt="">
-
-<!-- Simbolo preferiti-->       
-      <div class="heart"></div>
-
-<!-- Sconto -->
-      <div class="sales">-30%</div>
-
-<!-- Descrizione foto Catalogo -->
-      <div class="description">
-        
-        <div class="marca">Come Zucchero Filato</div>
-        <div class="model">voglia di colori pastello</div>
-        <span class="new_price">129,99 &euro;</span>
-
-      </div>
-        
-    </div>
-
-    
-<!-- Foto, modelli e prezzi del catalogo -->
-    <div class="img_container">
-
-<!-- Foto qunado non viene passato il cursore -->      
-      <img class="img_default"src="img/4.webp" alt="">
-
-<!-- Foto qunado viene passato il cursore -->
-      <img class="img_hover" src="img/4b.webp" alt="">
-
-<!-- Simbolo preferiti-->      
-      <div class="heart"></div>
-
-<!-- Sconto -->
-      <div class="sales">-50%</div>
-
-<!-- Sostenibilità -->
-      <div class="sustainability">Sostenibile</div>
-
-<!-- Descrizione foto Catalogo -->
-      <div class="description">
-        
-        <div class="marca">Levi's</div>
-        <div class="model">tee unisex</div>
-        <span class="new_price">14,99 &euro;</span>
-        <span class="old_price">29,99 &euro;</span>
-
-      </div>
-        
-    </div>
-
-<!-- Foto, modelli e prezzi del catalogo -->
-    <div class="img_container">
-
-<!-- Foto qunado non viene passato il cursore -->      
-      <img class="img_default"src="img/5.webp" alt="">
-      
-<!-- Foto qunado viene passato il cursore -->
-      <img class="img_hover" src="img/5b.webp" alt="">
-
-<!-- Simbolo preferiti-->
-      <div class="heart"></div>
-
-<!-- Descrizione foto Catalogo -->
-      <div class="description">
-        
-        <div class="marca">Maya Deluxe</div>
-        <div class="model">stripe bodice</div>
-        <span class="new_price">99,99 &euro;</span>
-
-      </div>
-        
-    </div>
-
-<!-- Foto, modelli e prezzi del catalogo -->
-    <div class="img_container">
-<!-- Foto qunado non viene passato il cursore -->     
-      <img class="img_default"src="img/6.webp" alt="">
-
-<!-- Foto qunado viene passato il cursore -->
-      <img class="img_hover" src="img/6b.webp" alt="">
-      
-<!-- Simbolo preferiti-->      
-      <div class="heart"></div>
-
-      <div class="sustainability_only">Sostenibile</div>
-
-<!-- Descrizione foto Catalogo -->
-      <div class="description">
-        
-        <div class="marca">Esprit</div>
-        <div class="model">maglione - black</div>
-        <span class="new_price">29,99 &euro;</span>
-
+        <!-- Descrizione foto Catalogo -->
+        <div class="description">
+          <div class="marca">Levi's</div>
+          <div class="model">Relaxed fit tee unisex</div>
+          <span class="new_price">14,99 &euro;</span>
+          <span class="old_price">29,99 &euro;</span>
+        </div>
       </div>
 
-    </div>
+      <!-- Foto, modelli e prezzi del catalogo -->
+      <div class="img_container">
+        <!-- Foto qunado non viene passato il cursore -->
+        <img class="img_default" src="img/2.webp" alt="" />
 
+        <!-- Foto qunado viene passato il cursore -->
+        <img class="img_hover" src="img/2b.webp" alt="" />
 
-  </main>
-  
-</body>
+        <!-- Simbolo preferiti-->
+        <div class="heart"></div>
+
+        <!-- Sconto -->
+        <div class="sales">-30%</div>
+
+        <!-- Descrizione foto Catalogo -->
+        <div class="description">
+          <div class="marca">Guess</div>
+          <div class="model">roses tee</div>
+          <span class="new_price">20,99 &euro;</span>
+          <span class="old_price">29,99 &euro;</span>
+        </div>
+      </div>
+
+      <!-- Foto, modelli e prezzi del catalogo -->
+      <div class="img_container">
+        <!-- Foto qunado non viene passato il cursore -->
+        <img class="img_default" src="img/3.webp" alt="" />
+
+        <!-- Foto qunado viene passato il cursore -->
+        <img class="img_hover" src="img/3b.webp" alt="" />
+
+        <!-- Simbolo preferiti-->
+        <div class="heart"></div>
+
+        <!-- Sconto -->
+        <div class="sales">-30%</div>
+
+        <!-- Descrizione foto Catalogo -->
+        <div class="description">
+          <div class="marca">Come Zucchero Filato</div>
+          <div class="model">voglia di colori pastello</div>
+          <span class="new_price">129,99 &euro;</span>
+        </div>
+      </div>
+
+      <!-- Foto, modelli e prezzi del catalogo -->
+      <div class="img_container">
+        <!-- Foto qunado non viene passato il cursore -->
+        <img class="img_default" src="img/4.webp" alt="" />
+
+        <!-- Foto qunado viene passato il cursore -->
+        <img class="img_hover" src="img/4b.webp" alt="" />
+
+        <!-- Simbolo preferiti-->
+        <div class="heart"></div>
+
+        <!-- Sconto -->
+        <div class="sales">-50%</div>
+
+        <!-- Sostenibilità -->
+        <div class="sustainability">Sostenibile</div>
+
+        <!-- Descrizione foto Catalogo -->
+        <div class="description">
+          <div class="marca">Levi's</div>
+          <div class="model">tee unisex</div>
+          <span class="new_price">14,99 &euro;</span>
+          <span class="old_price">29,99 &euro;</span>
+        </div>
+      </div>
+
+      <!-- Foto, modelli e prezzi del catalogo -->
+      <div class="img_container">
+        <!-- Foto qunado non viene passato il cursore -->
+        <img class="img_default" src="img/5.webp" alt="" />
+
+        <!-- Foto qunado viene passato il cursore -->
+        <img class="img_hover" src="img/5b.webp" alt="" />
+
+        <!-- Simbolo preferiti-->
+        <div class="heart"></div>
+
+        <!-- Descrizione foto Catalogo -->
+        <div class="description">
+          <div class="marca">Maya Deluxe</div>
+          <div class="model">stripe bodice</div>
+          <span class="new_price">99,99 &euro;</span>
+        </div>
+      </div>
+
+      <!-- Foto, modelli e prezzi del catalogo -->
+      <div class="img_container">
+        <!-- Foto qunado non viene passato il cursore -->
+        <img class="img_default" src="img/6.webp" alt="" />
+
+        <!-- Foto qunado viene passato il cursore -->
+        <img class="img_hover" src="img/6b.webp" alt="" />
+
+        <!-- Simbolo preferiti-->
+        <div class="heart"></div>
+
+        <div class="sustainability_only">Sostenibile</div>
+
+        <!-- Descrizione foto Catalogo -->
+        <div class="description">
+          <div class="marca">Esprit</div>
+          <div class="model">maglione - black</div>
+          <span class="new_price">29,99 &euro;</span>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
